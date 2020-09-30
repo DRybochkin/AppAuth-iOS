@@ -42,7 +42,7 @@ It follows the OAuth 2.0 for Native Apps best current practice
 
   # Subspec for the core AppAuth library classes only, suitable for extensions.
   s.subspec 'Core' do |core|
-     core.source_files = "Source/AppAuthCore.h", "Source/AppAuthCore/*.{h,m}"
+     core.source_files = "Source/AppAuth.h", "Source/AppAuthCore.h", "Source/AppAuthCore/*.{h,m}"
   end
 
   # Subspec for the full AppAuth library, including platform-dependant external user agents.
