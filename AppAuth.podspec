@@ -35,6 +35,7 @@ It follows the OAuth 2.0 for Native Apps best current practice
   s.osx.deployment_target = "10.9"
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "9.0"
+  s.static_framework = true
 
   s.source       = { :git => "https://github.com/openid/AppAuth-iOS.git", :tag => s.version }
   s.requires_arc = true
